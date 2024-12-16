@@ -23,7 +23,7 @@ button {
     cursor: pointer;
 }
 
-.geral{
+.geral_calculadora{
     background-color: white;
     height: 400px;
     width: 400px;
@@ -33,5 +33,16 @@ button {
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
     
+}
+
+.geral_login{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Mantém os elementos empilhados */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
 

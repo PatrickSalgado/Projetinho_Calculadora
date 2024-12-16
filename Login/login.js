@@ -1,0 +1,7 @@
+function entrar(){
+
+}
+
+function cadastrar(){
+    
+}
