@@ -1,0 +1,37 @@
+body {
+    font-family: Calibri;
+    color: black;
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column; /* Mantém a estrutura "um em cima do outro" */
+    height: 100vh; /* Faz o body ocupar toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    background-image: linear-gradient(to top , black, grey);
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 6px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.geral{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Mantém os elementos empilhados */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    
+}
+

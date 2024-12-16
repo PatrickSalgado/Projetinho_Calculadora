@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" type="imagem/jpg" href="img/calculadora.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="geral">
+    
+    <h1> Calculadora Resumida</h1>
+    <br>
+
+    <input type="number" placeholder="Insira um numero" id="num1">
+    <br>
+    <input type="number" placeholder="Insira um numero" id="num2">
+    
+    <div class="botao">
+    <button onclick="somar()">+</button>
+    <button onclick="subtrair()">-</button>
+    <button onclick="divisao()">/</button>
+    <button onclick="multiplicacao()">*</button>
+   
+    
+    </div>  
+
+    <div class="result">
+        <h2>Resultado:  <span id="resultado"></span> </h2>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
