@@ -8,17 +8,29 @@
     <title>Cadastrar</title>
 </head>
 <body>
-    <div class="geral_login">
+    <button><a href="/Login/login.html">Voltar</a></button>
+
+    <div class="geral_cadastrar">
     <h1>Cadastrar</h1>
     <br>
-    <input type="text" placeholder="Insira seu login" id="login">
+    <input type="text" placeholder="Digite seu nome completo" id="nome">
     <br>
-    <input type="text" placeholder="Digite sua senha" id="senha">
+    <input type="text" placeholder="Data de nascimento" id="nascimento">
     <br>
-
-    <button onclick="entrar()">Entrar</button>
+    
+    <select>
+    <option value="1">Masculino</option>
+    <option value="2">Feminino</option>
+    <option value="3">Outros</option>
+    </select>   
+    
     <br>
-    <button onclick="cadastrar()">Cadastrar</button>
+    <input type="text" placeholder="Digite seu email" id="email">
+    <br>
+    <input type="text" placeholder="Digite uma senha " id="senha">
+    
+    <br>
+    <button><a href="/Login/login.html">Cadastrar</a></button>
 
 
     <script src="cadastrar.js"></script>

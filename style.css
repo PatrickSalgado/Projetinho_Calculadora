@@ -23,6 +23,13 @@ button {
     cursor: pointer;
 }
 
+select{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
 .geral_calculadora{
     background-color: white;
     height: 400px;
@@ -44,5 +51,21 @@ button {
     flex-direction: column; /* Mantém os elementos empilhados */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
+}
+
+.geral_cadastrar{
+    background-color: white;
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Mantém os elementos empilhados */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do elemento pai */
 }
 
